@@ -8,7 +8,7 @@ namespace _14__Brackets
     /// To validate brackets if valid or not, must be all brackets closed
     /// ()()(()) Valid
     /// ()(()))( InValid
-    /// </summary>
+    /// </summary> 
     class Program
     {
         static void Main(string[] args)
