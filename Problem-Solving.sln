@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14- Brackets", "14- Bracket
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15-Breaking-the-Records", "15-Breaking-the-Records\15-Breaking-the-Records.csproj", "{4CFE07D2-2BF4-41E9-B4CD-A9197405178C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-Bon-Appétit", "16-Bon-Appétit\16-Bon-Appétit.csproj", "{C922B157-64E5-4521-8E72-664AE08CF84F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{4CFE07D2-2BF4-41E9-B4CD-A9197405178C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CFE07D2-2BF4-41E9-B4CD-A9197405178C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CFE07D2-2BF4-41E9-B4CD-A9197405178C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C922B157-64E5-4521-8E72-664AE08CF84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C922B157-64E5-4521-8E72-664AE08CF84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C922B157-64E5-4521-8E72-664AE08CF84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C922B157-64E5-4521-8E72-664AE08CF84F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
