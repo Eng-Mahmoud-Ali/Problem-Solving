@@ -29,15 +29,15 @@ namespace _12__Grading_Students
     {
         static void Main(string[] args)
         {
-            //int gradesCount = Convert.ToInt32(Console.ReadLine().Trim());
+            int gradesCount = Convert.ToInt32(Console.ReadLine().Trim());
 
-            List<int> grades = new List<int>() { 23, 80, 96 };
+            List<int> grades = new List<int>();
 
-            /*for (int i = 0; i < gradesCount; i++)
+            for (int i = 0; i < gradesCount; i++)
             {
                 int gradesItem = Convert.ToInt32(Console.ReadLine().Trim());
                 grades.Add(gradesItem);
-            }*/
+            } 
 
             List<int> result = Result.gradingStudents(grades);
 
