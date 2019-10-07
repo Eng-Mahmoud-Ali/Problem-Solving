@@ -16,16 +16,12 @@ namespace _12__Grading_Students
 
         public static List<int> gradingStudents(List<int> grades)
         {
-            List<int> gradesArr = new List<int>() { 0, 40, 50, 55,60,70, 75, 80, 85, 90, 95, 100 };
-            for (int i = 0; i < grades.Count; i++)
+            List<int> result = new List<int>();
+            foreach (var grade in grades)
             {
-                int roundedValue = gradesArr.Where(p => p > grades[i]).FirstOrDefault();
-                if (roundedValue - grades[i] < 3)
-                {
-                    grades[i] = roundedValue;
-                }
+                result.Add(grade < 38 || grade % 5 < 3 ? grade : grade + (5 - (grade % 5)));
             }
-            return grades;
+            return result;
         }
 
     }
@@ -33,15 +29,15 @@ namespace _12__Grading_Students
     {
         static void Main(string[] args)
         {
-            int gradesCount = Convert.ToInt32(Console.ReadLine().Trim());
+            //int gradesCount = Convert.ToInt32(Console.ReadLine().Trim());
 
-            List<int> grades = new List<int>();
+            List<int> grades = new List<int>() { 23, 80, 96 };
 
-            for (int i = 0; i < gradesCount; i++)
+            /*for (int i = 0; i < gradesCount; i++)
             {
                 int gradesItem = Convert.ToInt32(Console.ReadLine().Trim());
                 grades.Add(gradesItem);
-            }
+            }*/
 
             List<int> result = Result.gradingStudents(grades);
 
