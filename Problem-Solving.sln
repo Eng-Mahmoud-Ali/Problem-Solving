@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16-Bon-Appétit", "16-Bon-A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17-Cats-and-Mouse", "17-Cats-and-Mouse\17-Cats-and-Mouse.csproj", "{98DAFF35-EECA-4ACC-A44B-E3767A070491}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18-The-Hurdle-Race", "18-The-Hurdle-Race\18-The-Hurdle-Race.csproj", "{8E55E641-78A3-4ACB-BD0A-089DBB1B5A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19-Designer-pdf-viewer", "19-Designer-pdf-viewer\19-Designer-pdf-viewer.csproj", "{A777BF42-5899-4AA0-BD41-24C186B68D02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{98DAFF35-EECA-4ACC-A44B-E3767A070491}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98DAFF35-EECA-4ACC-A44B-E3767A070491}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98DAFF35-EECA-4ACC-A44B-E3767A070491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E55E641-78A3-4ACB-BD0A-089DBB1B5A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E55E641-78A3-4ACB-BD0A-089DBB1B5A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E55E641-78A3-4ACB-BD0A-089DBB1B5A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E55E641-78A3-4ACB-BD0A-089DBB1B5A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A777BF42-5899-4AA0-BD41-24C186B68D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A777BF42-5899-4AA0-BD41-24C186B68D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A777BF42-5899-4AA0-BD41-24C186B68D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A777BF42-5899-4AA0-BD41-24C186B68D02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
